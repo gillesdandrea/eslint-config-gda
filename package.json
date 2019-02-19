@@ -1,0 +1,35 @@
+{
+  "name": "eslint-config-gda",
+  "version": "0.1.0",
+  "description": "eslint config based on AirBnB and prettier used in gda-scripts.",
+  "keywords": [
+    "eslint-config"
+  ],
+  "repository": "https://github.com/gillesdandrea/eslint-config-gda",
+  "license": "MIT",
+  "author": "Gilles d'Andréa (https://github.com/gillesdandrea)",
+  "main": "index.js",
+  "dependencies": {
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-prettier": "^4.0.0"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^1.3.0",
+    "eslint": "^5.14.1",
+    "eslint-plugin-flowtype": "3.4.2",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-prettier": "^3.0.1",
+    "eslint-plugin-react": "^7.12.4",
+    "prettier": "^1.16.4"
+  },
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": "^1.3.0",
+    "eslint": "^5.14.1",
+    "eslint-plugin-flowtype": "3.4.2",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-prettier": "^3.0.1",
+    "eslint-plugin-react": "^7.12.4"
+  }
+}
